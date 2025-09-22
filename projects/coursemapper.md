@@ -1,7 +1,8 @@
 ---
 title: "Course Mapper"     
 layout: default          
-toc: true                    
+toc: true  
+parent: Projects
 ---
 
 

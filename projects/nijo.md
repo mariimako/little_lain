@@ -1,7 +1,8 @@
 ---
 title: "Nijo IDS"     
 layout: default          
-toc: true                    
+toc: true   
+parent: Projects
 ---
 
 

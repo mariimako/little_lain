@@ -1,6 +1,7 @@
 ---
-title: "Cyber Kill Chain"     
-layout: default          
+title: 1. Cyber Kill Chain, Incident Handling Process
+layout: default   
+parent: Incident Handling
 ---
 
 

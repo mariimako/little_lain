@@ -1,7 +1,8 @@
 ---
 title: "BScreen Baddies Operating System"     
 layout: default          
-toc: true                    
+toc: true         
+parent: Projects
 ---
 
 

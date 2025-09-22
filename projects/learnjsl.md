@@ -1,7 +1,8 @@
 ---
 title: "Learn JSL"     
 layout: default          
-toc: true                    
+toc: true   
+parent: Projects
 ---
 
 

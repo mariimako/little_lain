@@ -1,6 +1,7 @@
 ---
-title: "Detection and Analysis"     
-layout: default          
+title: 3. Detection and Analysis
+layout: default   
+parent: Incident Handling
 ---
 Detecting an Incident  (alerts from EDR, SIEM, IDS, firewall)
 Good idea to create levels to it

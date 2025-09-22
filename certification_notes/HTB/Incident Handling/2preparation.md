@@ -1,6 +1,7 @@
 ---
-title: "Preparation"     
-layout: default          
+title: 2. Preparation
+layout: default    
+parent: Incident Handling
 ---
 
 1. Establishment of incident handling capability wihtin organization

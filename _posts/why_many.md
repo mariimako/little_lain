@@ -1,6 +1,7 @@
 ---
-title: Why do repositories have multiple languages despite files
+title: Why the Multi-Language Repositories
 date: 2025-09-21
+parent: _posts
 ---
 
 This is due to dynamic linking.

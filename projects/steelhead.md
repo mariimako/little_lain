@@ -1,7 +1,8 @@
 ---
 title: "Steelhead"     
 layout: default          
-toc: true                    
+toc: true        
+parent: Projects
 ---
 
 

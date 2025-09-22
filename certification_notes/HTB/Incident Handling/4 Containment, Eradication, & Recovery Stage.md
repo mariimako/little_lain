@@ -1,6 +1,7 @@
 ---
-title: "Containment, Eradication, Recovery"     
-layout: default          
+title: 4. Containment, Eradication, & Recovery Stage     
+layout: default  
+parent: Incident Handling
 ---
 short term and long term containment
 do it simulatenorus ly to not let attackers know they are being chased
