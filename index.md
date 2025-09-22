@@ -7,27 +7,26 @@ toc: true
 
 # MariMako
 Hi! Thanks for coming. I am Marius. This is a blog in the sea.
-
-## Contact & Links
 <p style="display: flex; gap: 1rem; flex-wrap: wrap;">
-  <a href="https://github.com/mariimako">GitHub</a> |
-  <a href="https://www.linkedin.com/in/mariiimako/">LinkedIn</a> |
-  <a href="mailto:msheph02@student.ubc.ca">Mail</a> |
-  <a href="{{ 'assets/resumes/Resume_CYB-17.pdf' | relative_url }}">Resume</a> |
+  <a href="https://github.com/mariimako">GitHub</a> 
+  <a href="https://www.linkedin.com/in/mariiimako/">LinkedIn</a> 
+  <a href="mailto:msheph02@student.ubc.ca">Mail</a> 
+  <a href="{{ 'assets/resumes/Resume_CYB-17.pdf' | relative_url }}">Resume</a>
   <!-- <a href="https://jekyllrb.com">HTB</a> -->
 </p>
 
 Please feel free to check out:
+- My [Projects]({{ "/projects/projects_base.html" | relative_url }})
+- My [Writeups]({{ "/writeups/Writeups.html" | relative_url }})
+- My [Certification Notes]({{ "/certification_notes/certification_notes.html" | relative_url }})
+- [Blog]({{ "/blog/blogs.html" | relative_url }})
 
-## Sections
-- My [Projects]({{ "/projects" | relative_url }})
-- My [Writeups]({{ "/writeups" | relative_url }})
-- My [Certification Notes]({{ "/certification_notes" | relative_url }})
-- [Blog]({{ "/blog" | relative_url }})
+1. TOC
+{:toc}
 
 ## About Me
 
-My name is Marius. I'm a student at UBC. My passions are systems security and 'lower'-level programming. I like drumming, music, movies as well. I have an year experience in security and software engineering related internships, and an year of experience as a firmware dev at UBC Subbots, together with teaching and development experience in a undergrad systems course. 
+My name is Marius. I'm a student at UBC. My passions are security and "lower"-level programming. I have an year experience in security and software engineering related internships, and an year of experience as a firmware dev at UBC Subbots, together with teaching and development experience in a undergrad systems course. 
 
 ## Experience
 

@@ -1,7 +1,7 @@
 ---
 title: Starters
 layout: default   
-parent: CompTia CySA
+parent: CompTIA CySA
 ---
 Starter
 

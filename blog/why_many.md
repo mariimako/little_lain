@@ -1,11 +1,11 @@
 ---
 title: Why the Multi-Language Repositories
+layout: default   
 date: 2025-09-21
 parent: Blog
 ---
-
+# Why the Multi-Langauge Repositories
 This is due to dynamic linking.
-
 
 Instead of embedding full bytecode of commonly used libraries, we keep the library in a .so (or .dll) file and reference them in bytecode. Then replace the reference to the function implementation in process' address space. This is more storage efficient.
  
