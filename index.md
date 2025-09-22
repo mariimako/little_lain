@@ -27,7 +27,7 @@ At UBC Subbots, I work on firmware for the Steelhead AUV. I've written drivers i
 I also have worked part-time as a Ugrad teaching assistant for CPSC213. This is a computer systems course. I've gained and leveraged my expertise on this in creating new questions regarding RISC-based assembly translation, coding, thread syncrhonization in C, CPU pipelining, excercises regarding common exploits in C. These were coded in Python, containerized and distributed through a system called Prairelearn. I not only developed questions but autograding test suites to run on student submission, but I would say I spent more time debugging than creating new questions because of the huge variety of submissions of code we get that deal with syncrhonizationand instruction parsing.
 
 ----
-
+# Contact & Links
 [Github]: https://github.com/mariimako
 [LinkedIn]: https://www.linkedin.com/in/mariiimako/
 [Mail]: msheph02@student.ubc.ca
