@@ -1,8 +1,8 @@
 ---
 title: "Nijo IDS"     
 layout: default          
-toc: true   
 parent: Projects
+nav_order: 3
 ---
 
 

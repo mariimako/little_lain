@@ -3,6 +3,7 @@ title: "Steelhead"
 layout: default          
 toc: true        
 parent: Projects
+nav_order: 2
 ---
 
 

@@ -1,8 +1,14 @@
-title: MariMako Little Lain Blog 
+title: MariMako
 description: A blog in the sea
 theme: just-the-docs
+aux_links:
+  My GitHub:
+      - https://github.com/just-the-docs/just-the-docs
+  LinkedIn:
+      - https://www.linkedin.com/in/mariiimako/
+aux_links_new_tab: true
 
 url: https://mariimako.github.io/little_lain
 
-# aux_links: # remove if you don't want this link to appear on your pages
-#   Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark

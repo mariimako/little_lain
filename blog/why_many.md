@@ -1,7 +1,7 @@
 ---
 title: Why the Multi-Language Repositories
 date: 2025-09-21
-parent: _posts
+parent: Blog
 ---
 
 This is due to dynamic linking.

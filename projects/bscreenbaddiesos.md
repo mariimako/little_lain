@@ -3,6 +3,7 @@ title: "BScreen Baddies Operating System"
 layout: default          
 toc: true         
 parent: Projects
+nav_order: 1
 ---
 
 
