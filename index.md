@@ -4,29 +4,28 @@ layout: home
 nav_order: 1
 toc: true
 ---
-
 # MariMako
-Hi! Thanks for coming. I am Marius. This is a blog in the sea.
+
+Thanks for coming. I am Marius and this is my portfolio.
+
+ It is definitely a WIP with a lot of content not ported from my previous portfolio site, hopefully I am consistent in updating it.
+
+## About Me
+
+My name is Marius. I'm a student at UBC. My passions are security and "lower"-level programming. I have an year experience in security and software engineering related internships, and an year of experience as a firmware dev at UBC Subbots, together with teaching and development experience in a undergrad systems course. 
+
+Please feel free to check out:
+- My [Projects]({{ "/projects/projects_base.html" | relative_url }})
+- My [Writeups]({{ "/writeups/Writeups.html" | relative_url }})
+- My [Certification Notes]({{ "/study_notes/study_notes.html" | relative_url }})
+- [Blog]({{ "/blog/blogs.html" | relative_url }})
+
 <p style="display: flex; gap: 1rem; flex-wrap: wrap;">
   <a href="https://github.com/mariimako">GitHub</a> 
   <a href="https://www.linkedin.com/in/mariiimako/">LinkedIn</a> 
   <a href="mailto:msheph02@student.ubc.ca">Mail</a> 
   <a href="{{ 'assets/resumes/Resume_CYB-17.pdf' | relative_url }}">Resume</a>
-  <!-- <a href="https://jekyllrb.com">HTB</a> -->
 </p>
-
-Please feel free to check out:
-- My [Projects]({{ "/projects/projects_base.html" | relative_url }})
-- My [Writeups]({{ "/writeups/Writeups.html" | relative_url }})
-- My [Certification Notes]({{ "/certification_notes/certification_notes.html" | relative_url }})
-- [Blog]({{ "/blog/blogs.html" | relative_url }})
-
-1. TOC
-{:toc}
-
-## About Me
-
-My name is Marius. I'm a student at UBC. My passions are security and "lower"-level programming. I have an year experience in security and software engineering related internships, and an year of experience as a firmware dev at UBC Subbots, together with teaching and development experience in a undergrad systems course. 
 
 ## Experience
 
@@ -41,7 +40,7 @@ At Cyberium, I was involved in various blue team operations and  tool developmen
 At UBC Subbots, I work on firmware for the Steelhead AUV. I've written drivers in C++ for IMUs to be integrated to ROS2, creating underwater simulation environments in Gazebo for our robot. I also made the script for autonomous navigation for our pre qualification in navigating to and from a gate, putting together computer vision, state estimation and PID nodes. Last year, we made it to semi-finals in RoboSub 2025 and had the best performance in history of our team. 
 
 ### Computer Systems Teaching Assistant
-I also have worked part-time as a Ugrad teaching assistant for CPSC213. This is a computer systems course. I've gained and leveraged my expertise on this in creating new questions regarding RISC-based assembly translation, coding, thread syncrhonization in C, CPU pipelining, excercises regarding common exploits in C. These were coded in Python, containerized and distributed through a system called Prairelearn. I not only developed questions but autograding test suites to run on student submission, but I would say I spent more time debugging than creating new questions because of the huge variety of submissions of code we get that deal with syncrhonizationand instruction parsing.
+I also have worked part-time as a Ugrad teaching assistant for CPSC213. This is a computer systems course. I've gained and leveraged my expertise on this in creating new questions regarding RISC-based assembly translation, coding, thread synchronization in C, CPU pipelining, excercise regarding common exploits in C. These were coded in Python, containerized and distributed through a system called Prairielearn. I not only developed questions but autograding test suites to run on student submission, but I would say I spent more time debugging than creating new questions because of the huge variety of submissions of code we get that deal with synchronization and instruction parsing.
 
 
 ## Projects

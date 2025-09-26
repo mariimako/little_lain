@@ -8,5 +8,5 @@ nav_order: 3
 
 # Overview
 
-A very work in progress network intrusion detection. Using eBPFs.
+A very early work in progress network intrusion detection. Using eBPFs.
 

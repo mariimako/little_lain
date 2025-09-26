@@ -1,6 +1,6 @@
 ---
 title: HTB
-parent: Certification Notes
+parent: Study Notes
 layout: default
 ---
 HTB (Hack the Box)
