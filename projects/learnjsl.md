@@ -11,3 +11,4 @@ nav_order: 5
 
 One of the first ever coding projects I did. Translation of the Japan Sign Langauge into alphabet via computer vision.
 
+[Repository](https://github.com/mariimako/Learn-JSL) 

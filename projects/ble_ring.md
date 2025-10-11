@@ -1,5 +1,5 @@
 ---
-title:      
+title: Bluetooth Fitness Ring Device     
 layout: default          
 toc: true         
 parent: Projects

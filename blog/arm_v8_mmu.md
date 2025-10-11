@@ -5,7 +5,6 @@ date: 2025-09-09
 parent: Blog
 ---
 
-
 # The ARMv8 MMU
 
 Short look in the ARMv8-A MMU

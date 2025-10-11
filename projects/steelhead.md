@@ -15,4 +15,4 @@ We've made it to semi-finals in RoboSub 2025, where over 50 teams from the world
 
 We have also done the best in our team's history this year, and we definitely have a lot less funding than other teams!
 
-insert link here later
+[Repository](https://github.com/ubc-subbots/steelhead)
