@@ -33,32 +33,29 @@ Context switch, suer space TTBR is changed, but hopefully kernel is never writte
 ### Page Sizes and Granules
 MMUs on Intel processors have fixed page size, smalelst unit of memeory that can be mapped independently
 
-ARMV*-A allows 3 idfferent granule sizes
+ARMV*-A allows 3 different granule sizes
 
-Granykze size can be different for EL0 and EL1 mappings
+Granule size can be different for EL0 and EL1 mappings
 
 Region size is determined by fields in TCR register
 
-Multiple granule sies introduce consdierable flexbility
+Multiple granule sies introduce considerable flexbility
 
-Barrrefish, awlays use granule size of 4KiB
+Granule size not the same as super pages.
 
-
-grannule size not the same as superpages.
-
-Superpages are feature of multi level page tables
+Super pages are a feature of multi level page tables
 
 ![[Screenshot 2025-09-22 at 2.17.17 PM.png]]
 
-#### Page Table Foramt
-4levels, similar to x86
+#### Page Table Format
+4 levels, similar to x86
 
-Final result of table walkc alled a block entyr and is allowed at any elvel of page table other than level 0
+Final result of table walk alled a block entry and is allowed at any elvel of page table other than level 0
 
 Page Table Entry
 
-dirty bit, si absent.
+dirty bit is absent.
 
 Need to keep track of accesses to virtual pages using traps
 
-prvouded functions to install and remvoe page mappings using CPU drivers code.
+Provided  functions to install and remove page mappings using CPU drivers code.

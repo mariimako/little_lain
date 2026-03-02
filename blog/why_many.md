@@ -5,7 +5,7 @@ date: 2025-09-21
 parent: Blog
 ---
 # Why the Multi-Langauge Repositories
-This is due to dynamic linking.
+Like actually why. This is due to dynamic linking.
 
 Instead of embedding full bytecode of commonly used libraries, we keep the library in a .so (or .dll) file and reference them in bytecode. Then replace the reference to the function implementation in process' address space. This is more storage efficient.
  
@@ -50,20 +50,14 @@ We can even do this by Rust because they still have linkers. Rust often needs to
 
 This has any advantages such as 
 1. Performance optimizations by writing some code in C/CPP/Rust.
-
 2. Leveraging existing libraries
-
 3. Leverage system level access
 4. Faster development for non critical
 5. Team Expertise
 6. Cross platform support
 7. Migration of existing code 
 
-
-
 However, how to make caller callee conventions consistent? Perhaps call by reference or call by value affects this?
-
-
 # About ABIs
 Application Binary Interface
 

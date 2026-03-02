@@ -8,5 +8,5 @@ nav_order: 3
 
 # Overview
 
-A very early work in progress network intrusion detection. Kinda paused development.
+A very early work in progress network intrusion detection system integrating eBPF. Kinda paused development.
 

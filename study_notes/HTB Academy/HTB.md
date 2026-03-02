@@ -1,5 +1,5 @@
 ---
-title: HTB
+title: HTB Academy
 parent: Study Notes
 layout: default
 ---
