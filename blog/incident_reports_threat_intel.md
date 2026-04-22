@@ -20,7 +20,7 @@ It was a renamed version of Windows signed debugger CDB.exe.
 
 Abusing this binary allowed attackers to execute shellcode deliverred in config.ini, under guise of trusted binaries
 
-CDB is 15 year old debugger, seeing icnreased activity in 2021 and late 2024.
+CDB is 15 year old debugger, seeing increased activity in 2021 and late 2024.
 
 Documented LOLBas [great analysis](https://mrd0x.com/the-power-of-cdb-debugging-tool/)
 ```
@@ -36,7 +36,6 @@ Then pinged digert.ictnsc[.]com which were adversary ownded
 
 Executed script called SoftwareDistirbution, using diskshadow.exe, extracting SAM, SECUIRTY, SYSTEM Registry hives, and copied Active Direcotyr database (ntds.dit)
 
-
 Persistence achieved via Scheduled Task that invoked CBD.exe, weaponize INI file every minute as SYSTEM
 ```
 schtasks /create /RL HIGHEST /F /tn \"\\Microsoft\\Windows\\AppID\\EPolicyManager\" 
@@ -45,76 +44,9 @@ schtasks /create /RL HIGHEST /F /tn \"\\Microsoft\\Windows\\AppID\\EPolicyManage
 ```
  Malware analysis: https://www.elastic.co/security-labs/finaldraft
 
-FINALDRAFT can establsih C@ via various means. 
-Abuse of Microsfot Graph API is notable.
+FINALDRAFT can establsih C2 via various means. 
+Abuse of Microsoft Graph API is notable.
 
-This minimizes indiactors observable to network based IDS.
+This minimizes indicators observable to network based IDS.
 
-Encrypted payloads third pasrty hosted also challenge the systems.
-
-My YARA RULE:
-
-
-
-# Windows Registry 
-Windows registry is a high-signal persistence and execution control surface.
-
-
-Root Hives:
-
-|Hive|Purpose|Security relevance|
-|---|---|---|
-|`HKLM`|System-wide config|Privilege escalation, services|
-|`HKCU`|Per-user config|User persistence|
-|`HKCR`|File associations|Execution hijacking|
-|`HKU`|All user profiles|Multi-user persistence|
-|`HKCC`|Hardware config|Rarely abused|
-Namespcaes backed by hive files on disk
-Attackers abuse it for persistence, execution hijacking, defense evasion, credential storage, priviledge escalation
-
-Persistence:
-HKCU\Software\Microsoft\Windows\CurrentVersion\Run
-HKLM\Software\Microsoft\Windows\CurrentVersion\Run
-
-Behaviour:
-- Values executed on user login or system boot
-Security signal:
-- Registry value write + later process execution
-
-B. Scheduled tasks via registry
-HKLM\Software\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache
-Behavior:
-- Attackers create tasks indirectly
-- Registry reflects task metadata 
-Detection insight:
-- Task creation should correlate with `schtasks.exe` or COM activity
-
-C. Service Creation/ Modification
-HKLM\SYSTEM\CurrentControlSet\Services\<ServiceName>
-Used for:
-- Persistence
-- Privilege escalation
-- Execution as SYSTEM
-**Key indicators:**
-- New service key
-- Modified `ImagePath`
-D. Execution hijacking (high-signal)
-HKCR\.exe
-HKCR\exefile\shell\open\command
-Allows:
-- Intercepting execution of binaries
-- Triggering malicious loaders
-**Security value:**
-- Extremely rare in legitimate software
-- Very high signal
-E. UAC bypass techniques
-`HKCU\Software\Classes\ms-settings\shell\open\command`
-
-Used to:
-- Trigger auto-elevated binaries
-- Bypass UAC (User Account Control. permission before application) prompts
-
-**Detection insight:**
-- Registry write + auto-elevated process launch
-Common telemtry sources:
-- Sysmon, EDRs, ETW, Windows event logs
+Encrypted payloads third party hosted also challenge the systems.

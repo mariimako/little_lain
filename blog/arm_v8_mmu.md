@@ -27,7 +27,7 @@ Configure TCR_EL1 to use full 48 bit virtual address space
 
 ![[Screenshot 2025-09-22 at 2.14.23 PM.png]]
 
-use two registers, one for kernel, one for user space. 
+Use two registers, one for kernel, one for user space. 
 
 Context switch, suer space TTBR is changed, but hopefully kernel is never written to after initialization and boot
 ### Page Sizes and Granules
