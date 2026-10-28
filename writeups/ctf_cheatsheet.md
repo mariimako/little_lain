@@ -1,4 +1,10 @@
+---
+title: CTF Cheatsheet
+layout: default
+parent: Writeups
+---
 
+# CTF Cheatsheet
 
 Connect to mssql
 `impacket-mssqlclient DOMAIN/username@IP -windows-auth`

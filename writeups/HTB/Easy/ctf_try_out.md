@@ -9,7 +9,7 @@ Some easy hardware ones. Introduction to hardware styled CTFs which I haven't to
 Very Easy: "backdoor" contains the 16bit signal to get into the device
 
 # 2
-Very Easy: open the PCB related ASCII files, Gerber (.gbr) files in some application. I used PCBWay. I then downloaded the copper layers and viewed the svg files. Two of the layers contained the flag. In a typical PCB Gerber files the following exist:
+Very Easy: open the PCB related ASCII files, the Gerber (.gbr) files, in some application. I used PCBWay. I then downloaded the copper layers and viewed the svg files. Two of the layers contained the flag. In typical PCB Gerber files, the following exist:
 - **F = Front / B = Back**
 - **Cu = Copper layers** (top, bottom, and inner copper planes/traces)
 - **Mask = Soldermask** (defines where soldermask is applied)
@@ -35,6 +35,6 @@ Tx stands for transmission, and Rx represents reception Dx for diagnosis
 
 I see signal in RX. I can apply an analyzer. I used async serial (UART) analyzer. A bunch of hexits appeared. 
 I set the baud rate to default, hex streams show error. 
-Set to 115200 bps, apparently it is common for Embedded boards / MCU.
+Set to 115200 bps, apparently it is common for embedded boards / MCUs.
 
-So the analyzer was connected to the digital signals sent via UART in some boot process. I set the Baud rate to for a typical  embedded board/ MCU. Converted the signal to ASCII, and it showed a madeup boot process, including the flag.
+So the analyzer was connected to the digital signals sent via UART in some boot process. I set the baud rate to one typical for an embedded board / MCU. Converted the signal to ASCII, and it showed a made-up boot process, including the flag.

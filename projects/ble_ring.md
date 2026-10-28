@@ -8,8 +8,8 @@ nav_order: 1
 
 # Bluetooth Ring Device
 
-A cool startup project I worked at a side endeavour at my internship at Cyberium. It involved using a mobile app to communicate with a ring to monitor various health metrics. It ended up being quite similar to the Oura Ring... but very fun and unique experience otherwise.
+A cool startup side project I worked on during my internship at Cyberium. It involved using a mobile app to communicate with a ring to monitor various health metrics. It ended up being quite similar to the Oura Ring... but a very fun and unique experience otherwise.
 
 I dived into BLE protocols like GATT and created a Flutter application, including UI, backend, and communicating with the ring as a PoC.
 
-The fun part was the firmware to communicate with the device and getting into the. internals specific to the rings.
+The fun part was the firmware to communicate with the device and getting into the internals specific to the rings.
